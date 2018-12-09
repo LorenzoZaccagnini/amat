@@ -82,7 +82,7 @@ h1 {
   background: linear-gradient(180deg, white 2.9rem, #FA7268 2.9rem, #FA7268);
   color: white;
   margin-top: 50px;
-  
+
 }
 
 .half_bg_title{
@@ -192,6 +192,12 @@ max-width: 600px;
 }
 
 .name_container{
+  font-size: 1.4em;
+  font-weight: bold;
+
+}
+
+.name_title_container {
   font-weight: bold;
 }
 
