@@ -80,11 +80,35 @@ h1 {
 
 .half_bg_alternate{
   background: linear-gradient(180deg, white 2.9rem, #FA7268 2.9rem, #FA7268);
+  color: white;
   margin-top: 50px;
+  
+}
+
+.half_bg_title{
+  background: linear-gradient(180deg, #FA7268 2.9rem, white 2.9rem, white);
+  color: #374252;
+}
+
+.section_general {
   text-align: center;
   width: 100%;
-  color: white;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section_general li {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.solution_section {
+
+padding: 15px;
+max-width: 600px;
 }
 
 .features_container {
@@ -131,6 +155,12 @@ h1 {
   border: 3px solid #FA7268;
   background-color: white;
   border-radius: 15px;
+}
+
+
+.problems_section {
+  padding: 15px;
+  max-width: 600px;
 }
 
 .team_container {
