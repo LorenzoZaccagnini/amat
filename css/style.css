@@ -93,6 +93,10 @@ h1 {
   color: #374252;
 }
 
+.bigger_text {
+  font-size: 1.15rem;
+}
+
 .section_general {
   text-align: center;
   width: 100%;
@@ -101,7 +105,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 1.15rem;
 
 }
 
