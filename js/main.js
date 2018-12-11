@@ -15,6 +15,17 @@ function topFunction() {
 }
 
 
+function menuTask() {
+  console.log('clicked');
+  
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
 window.onload = function() {
   console.log('ciao');
   Helper.fetchTeam();

@@ -30,23 +30,33 @@
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/saferInnerHTML@1/dist/saferInnerHTML.polyfills.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-  <header>
-    <div class="nav_logo">
+  <header  class="topnav" id="myTopnav">
+ <div class="nav_logo">
       <img src="images/logo.jpg" class="logo" alt="">
       <span>AMAT</span>
 
     </div>
-    <!-- <div class="nav_hamburger">
-      <img src="images/menu.png" alt="">
-    </div> -->
+    <div class="text_menu" onclick="menuTask()">
+  <a href="#Home">Home</a>
+  <a href="#Problema">Problema</a>
+  <a href="#Soluzione">Soluzione</a>
+  <a href="#Aiutaci">Aiutaci</a>
+  <a href="#Collabora">Collabora</a>
+  <a href="#ChiSiamo">Chi Siamo</a>
+  <a href="#Contatti">Contatti</a>
+    </div>
+  <a href="javascript:void(0);" class="icon" onclick="menuTask()">
+    <i class="fa fa-bars"></i>
+  </a>
   </header>
   <button onclick="topFunction()" id="top_btn" title="Go Up">⬆</button>
 
-  <section class="title_section">
+  <section class="title_section" id="Home">
     <div class="subtitle">
       Una piattaforma dove gli adolescenti potranno fare domande in forma anonima e ricevere risposte da professionisti qualificati
     </div>
@@ -77,6 +87,8 @@
       </div>
       Il codice è open source, disponibile su github come puoi vedere dalla url di questo sito
     </div>
+              <div id="Problema">
+          </div>
   </section>
   <section class="half_bg_alternate section_general">
     <div class="title_alternate">
@@ -100,8 +112,12 @@
           Scarsità di informazioni sul mondo adolescenziale attuale, rendendo difficile capirli ed aiutarli, con la conseguente impossibilità di costruire programmi di prevenzione accurati ed efficaci
         </li>
       </ul>
+          <div id="Soluzione">
+          </div>
       <br><br>
     </div>
+
+    
   </section>
   <section class="half_bg_title section_general">
     <div class="title_alternate">
@@ -130,7 +146,10 @@
           Il più importante, non sentirsi soli nella propria condizione e poter contare su un professionista qualificato come alleato
         </li>
       </ul>
+          <div id="Aiutaci">
+          </div>
       <br><br>
+
     </div>
   </section>
   <section class="half_bg_alternate section_general">
@@ -156,10 +175,12 @@
           Permettere ai partecipanti volontari di questo progetto di avere un rimborso spese
         </li>
       </ul>
+                <div id="Collabora">
+          </div>
       <br><br>
     </div>
   </section>
-  <section class="half_bg_title section_general">
+  <section class="half_bg_title section_general" style="margin-top: -1px;">
     <div class="title_alternate">
       <h1>Collabora</h1>
     </div>
@@ -191,6 +212,8 @@
           Grafici ed illustratori per dare un volto a questo progetto
         </li>
       </ul>
+                      <div id="ChiSiamo">
+          </div>
       <br><br>
     </div>
   </section>
@@ -208,6 +231,9 @@
 
 
       </div>
+                            <div id="Contatti">
+          </div>
+      <br><br>
     </div>
 
   </section>
