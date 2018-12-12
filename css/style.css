@@ -113,7 +113,7 @@ h1 {
 .half_bg_title{
   background: linear-gradient(180deg, #FA7268 2.9rem, white 2.9rem, white);
   color: #374252;
-  margin-top: -3px;
+  margin-top: -3px !important;
 }
 
 .bigger_text {
