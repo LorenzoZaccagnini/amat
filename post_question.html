@@ -1,0 +1,84 @@
+!<!DOCTYPE html>
+<html lang="it" dir="ltr">
+
+<head>
+  <!-- COMMON TAGS -->
+  <meta charset="utf-8">
+  <title>AMAT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Search Engine -->
+  <meta name="description" content="Una piattaforma gratuita per gli adolescenti">
+  <meta name="image" content="https://lorenzozaccagnini.github.io/amat/images/logo.jpg">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="AMAT">
+  <meta itemprop="description" content="Una piattaforma gratuita per gli adolescenti">
+  <meta itemprop="image" content="https://lorenzozaccagnini.github.io/amat/images/logo.jpg">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AMAT">
+  <meta name="twitter:description" content="Una piattaforma gratuita per gli adolescenti">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="AMAT">
+  <meta name="og:description" content="Una piattaforma gratuita per gli adolescenti">
+  <meta name="og:image" content="https://lorenzozaccagnini.github.io/amat/images/logo.jpg">
+  <meta name="og:url" content="https://lorenzozaccagnini.github.io/amat/">
+  <meta name="og:site_name" content="AMAT">
+  <meta name="og:locale" content="it_IT">
+  <meta name="og:type" content="website">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/saferInnerHTML@1/dist/saferInnerHTML.polyfills.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header  class="topnav" id="myTopnav">
+ <div class="nav_logo">
+      <img src="images/logo.jpg" class="logo" alt="">
+      <span>AMAT</span>
+
+    </div>
+    <div class="text_menu" onclick="menuTask()">
+  <a href="/#Home">Home</a>
+  <a href="/#Problema">Problema</a>
+  <a href="/#Soluzione">Soluzione</a>
+  <a href="/#Aiutaci">Aiutaci</a>
+  <a href="/#Collabora">Collabora</a>
+  <a href="/#ChiSiamo">Chi Siamo</a>
+  <a href="/#Contatti">Contatti</a>
+    </div>
+  <a href="javascript:void(0);" class="icon" onclick="menuTask()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </header>
+  <button onclick="topFunction()" id="top_btn" title="Go Up">⬆</button>
+
+  <section class="title_section" id="Home" style="height: 30px; margin-top: 40px">
+ 
+  </section>
+  <section class="half_bg_title section_general">
+    <div class="title_alternate">
+      <h1>Scrivi qui</h1>
+    </div>
+    <form id="contact_form">
+<div class="">
+Non inserire informazioni personali, indirizzi, numeri di telefoni altrimenti la domanda
+verrà eliminata
+<br>
+<br>
+</div>
+
+  <textarea name="message" rows="8" cols="80" id="questionTextarea"></textarea>
+</form>
+  <button class="submit_button" value="Invia" onclick="addQuestion()">
+
+  </section>
+  <script src="js/question.js" charset="utf-8"></script>
+
+</body>
+
+</html>
